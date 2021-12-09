@@ -27,8 +27,9 @@ class QRContainer extends React.Component {
   }
   render() {
     const previewStyle = {
-      height: 240,
-      width: 320,
+      height: 200,
+      width: 260,
+      margin: "auto",
     };
 
     return (
@@ -40,7 +41,7 @@ class QRContainer extends React.Component {
           onScan={this.handleScan}
           facingMode={"environment"}
         />
-        <p>{this.state.result}</p>
+        <p style={{ position: "absolute", top: "50vh", width: "100%" }}>{this.state.result}</p>
       </div>
     );
   }
