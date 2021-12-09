@@ -17,7 +17,7 @@ class QRContainer extends React.Component {
     console.log("data :", data);
     if (data) {
       this.setState({
-        result: data.text,
+        result: data,
       });
     }
   }
