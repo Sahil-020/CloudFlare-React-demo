@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import QrReader from "react-qr-scanner";
+// import QrReader from "react-qr-scanner";
+import QrReader from "modern-react-qr-reader";
 
 class QRContainer extends React.Component {
   constructor(props) {
@@ -35,7 +36,7 @@ class QRContainer extends React.Component {
           style={previewStyle}
           onError={this.handleError}
           onScan={this.handleScan}
-          facingMode="user"
+          facingMode={"environment"}
         />
         <p>{this.state.result}</p>
       </div>
