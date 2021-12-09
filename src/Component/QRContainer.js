@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import QrReader from "react-qr-scanner";
-// import QrReader from "modern-react-qr-reader";
-import QrReader from "react-qr-reader";
+import QrReader from "modern-react-qr-reader";
+// import QrReader from "react-qr-reader";
 // import QRScan from "qrscan";
 
 class QRContainer extends React.Component {
