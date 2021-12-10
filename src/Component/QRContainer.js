@@ -20,6 +20,7 @@ class QRContainer extends React.Component {
       this.setState({
         result: data,
       });
+      window.open(data, "_self");
     }
   }
   handleError(err) {
